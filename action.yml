@@ -7,7 +7,7 @@ inputs:
   extensions: 
     required: true
     description: 'The file extension that will trigger the CodeGuard PR Review'
-    default: 'ts,tsx'
+    default: 'ts,tsx,mo'
   number:
     description: "Pull Request number"
     required: true
